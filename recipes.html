@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <head>
+        <style>
+            body{
+                background-image: linear-gradient(#f75d49, #fa9836);
+                margin: 0;
+            }
+        </style>
+        <title>user recipes</title>
+        <link rel="stylesheet" href="recipestyle.css">
+</head>
+    <body>
+        <header></header>
+        <h1>Get Inspired!</h1>
+        <div class = "filtertitle"> Filter: 
+            <div id="filters">
+                <label class="switch"> <input id="vegan" type="checkbox">
+                    <span class="toggle">vegan </span>
+                    </label>
+                <label class="switch"> <input id="veg" type="checkbox">
+                    <span class="toggle">vegetarian </span>
+                    </label>
+                <label class="switch"> <input id="nogluten" type="checkbox">
+                    <span class="toggle">gluten-free</span>
+                     </label>
+                <label class="switch"> <input id="nodairy" type="checkbox">
+                    <span class="toggle">lactose-free</span>
+                     </label>
+                <label class="switch"> <input id="nonut" type="checkbox">
+                    <span class="toggle">nut-free </span>
+                    </label>
+            </div>
+        </div>
+        <div id = "recipes"></div>
+            <script src="./recipescript.js"></script>
+        
+        
+    </body>
+</html>
